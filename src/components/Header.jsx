@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "../functions/Image";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 const Header = ({ theme, fx }) => {
   return (
     <header className="container mx-auto pt-10 px-6 text-center h-40 md:h-20">
