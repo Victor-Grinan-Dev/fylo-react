@@ -7,9 +7,11 @@ import Hero from "./components/Hero";
 import Productive from "./components/Productive";
 import Testimonial from "./components/Testimonial";
 
+const window = document.getElementsByName("html");
+
 function App() {
   const [theme, setTheme] = useState('');
-
+ 
   useEffect(() => {
     if(localStorage.getItem('fylo-theme')=== 'dark' || (!('fylo-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
     ){

@@ -50,6 +50,7 @@ const images = {
   profile1:profile1,
   profile2:profile2,
   profile3:profile3,
+
   facebook:facebook,
   instagram:instagram,
   instagramIcon:instagramIcon,
@@ -57,12 +58,14 @@ const images = {
 };
 
 const types = {
-  user:"",
+  user:"w-10 h-10 rounded-full",
   image:"mx-auto",
-  icon:"",
+  icon:"scale-10",
+  some:"p-2 bg-darkBlue rounded-full ficon",
   logo:"w-48 mx-auto md:mx-0 md:absolute top-10 left-10",
   features:"",
   inline:"inline pb-2",
+  quotes:'absolute left-1 -top-2 w-10 md:-top-16 md:w-20',
 
 }
 
