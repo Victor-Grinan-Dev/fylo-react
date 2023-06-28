@@ -13,7 +13,7 @@ function App() {
   const [theme, setTheme] = useState('');
  
   useEffect(() => {
-    if(localStorage.getItem('fylo-theme')=== 'dark' || (!('fylo-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+    if(localStorage.getItem('fylo-theme')=== 'dark' || (!('fylo-theme' in localStorage))
     ){
       setTheme('dark')
     }else{
