@@ -7,8 +7,6 @@ import Hero from "./components/Hero";
 import Productive from "./components/Productive";
 import Testimonial from "./components/Testimonial";
 
-const window = document.getElementsByName("html");
-
 function App() {
   const [theme, setTheme] = useState('');
  
